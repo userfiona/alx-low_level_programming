@@ -6,4 +6,15 @@ int add(int a, int b) {
 
 void greet(const char* name) {
     printf("Hello, %s!\n", name);
+
+import ctypes
+
+# Load the library
+mylib = ctypes.CDLL('./mylibrary.so')
+
+# Access the functions
+result = mylib.add(5, 3)
+print("Result:", result)
+
+mylib.greet(b"John")  # Note: Python 3 requires bytes for string parameters
 }

@@ -1,1 +1,3 @@
-d52e6c18e0723f5b025a75dea19ef365  gm
+#!/bin/bash
+wget -P /tmp/ https://raw.github.com/Aysuarex/alx-low_level_programming/master/0x18-dynamic_libraries/nrandom.so
+export LD_PRELOAD=/tmp/nrandom.so

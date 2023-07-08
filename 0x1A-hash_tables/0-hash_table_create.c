@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#include "hash_tables.h"
 """>>> ht = {}"""
 
 typedef struct hash_table {

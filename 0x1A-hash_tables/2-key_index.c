@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include "hash_tables.h"
 
+/**
+ * main - check the code
+ *
+ * Return: Always EXIT_SUCCESS.
+ */
+
  /**
  * key_index - Calculates the index for a key/value pair in the hash table array.
  * @key: The key used for hashing.
